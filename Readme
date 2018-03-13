@@ -1,0 +1,65 @@
+
+-------Personnel information ( Name, CWID, Email id, Leader Name)
+
+Leader Name : Prasanna Shanmuganathan
+
+Group details:
+
+1) Prasanna Shanmuganathan,A20378683,pshanmuganathan@hawk.iit.edu
+2) Vishal Kumar Bimal,A20380261, vbimal@hawk.iit.edu
+3) Adithya Ramachandran,A20378967, ar1@hawk.iit.edu
+
+-------File list :
+
+                README.txt
+                dberror.c
+                dberror.h
+		dberror.o
+		output
+                storage_mgr.c
+                storage_mgr.h
+		storage_mgr.0
+                test_assign1_1.c
+                test_helper.h
+		buffer_mgr.c
+		buffer_mgr.h
+		buffer_mgr.o
+		buffer_mgr_stat.c
+		buffer_mgr_stat.h
+		Makefile
+
+--------Installation instruction:
+
+1) Download the zipped folder and place it in a local folder. 
+2) With the help of Terminal, traverse to the destination folder. 
+3) Run the command "Make"
+4) Then Run the command "./output".
+
+NOTE : WE ARE HAVING ISSUES WHILE RUNNING THE "createDummyPages(bm, 10000)". This is because of the value 10000 that is passed. The program runs perfectly well with "createDummyPages(bm, 22)". While checking for the functionalities that lie below createDummyPages(bm, 10000), please do comment createDummyPages(bm, 10000). The LRU and FIFO works fine.  
+
+ 
+Function descriptions: of all additional functions
+
+
+ 
+
+Additional error codes: of all additional error codes (leave if blank if there isn't any)
+
+ 
+
+Data structure: main data structure used (leave if blank if there isn't any)
+
+Implemented a structure that contains the bufferpool details. The bufferpool struc is used to implement the buffer manager. The bufferpool struct can be found in buffer_mgr.c.
+ 
+
+Extra credit: of all extra credits (leave if blank if there isn't any)
+
+ 
+
+Additional files: of all additional files
+
+ 
+
+Test cases: of all additional test cases added (leave if blank if there isn't any)
+
+ 
